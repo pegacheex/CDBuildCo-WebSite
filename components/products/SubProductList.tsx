@@ -4,6 +4,7 @@ import type { SubProduct } from "@/data/products";
 
 interface SubProductListProps {
   subProducts: SubProduct[];
+  locale: string;
 }
 
 function groupByRange(subProducts: SubProduct[]): Map<string | undefined, SubProduct[]> {
@@ -16,10 +17,10 @@ function groupByRange(subProducts: SubProduct[]): Map<string | undefined, SubPro
   return map;
 }
 
-export default async function SubProductList({ subProducts }: SubProductListProps) {
+export default async function SubProductList({ subProducts, locale }: SubProductListProps) {
   if (subProducts.length === 0) return null;
 
-  const t = await getTranslations();
+  const t = await getTranslations({ locale });
   const grouped = groupByRange(subProducts);
   const hasRanges = grouped.size > 1 || (grouped.size === 1 && grouped.keys().next().value !== undefined);
 

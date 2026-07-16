@@ -29,12 +29,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function ProductCategoryPage({ params }: PageProps) {
-  const { category } = await params;
+  const { locale, category } = await params;
   const product = products.find((p) => p.id === category);
 
   if (!product) notFound();
 
-  const t = await getTranslations();
+  const t = await getTranslations({ locale });
   const categoryName = t(product.nameKey as Parameters<typeof t>[0]);
   const categoryDesc = t(product.descriptionKey as Parameters<typeof t>[0]);
 
@@ -126,7 +126,7 @@ export default async function ProductCategoryPage({ params }: PageProps) {
         <section style={{ padding: "64px 24px", backgroundColor: "var(--cd-white)" }}>
           <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
             {product.subProducts.length > 0 ? (
-              <SubProductList subProducts={product.subProducts} />
+              <SubProductList subProducts={product.subProducts} locale={locale} />
             ) : (
               <p
                 style={{

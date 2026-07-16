@@ -30,9 +30,10 @@ const notoSansDevanagari = Noto_Sans_Devanagari({
 
 // ─── Metadata ───────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
+  metadataBase: new URL("https://cd-build-co-web-site.vercel.app"),
   title: "CD Enterprises — Authorised Building Materials Dealer, Wai Taluka",
   description:
-    "CD Enterprises is a 25+ year multi-brand authorised dealer of ACC Cement, JSW Roofing & CERA Sanitaryware in Wai Taluka, Satara, Maharashtra.",
+    "CD Enterprises is a 25+ year multi-brand authorised dealer of ACC Cement, JSW Roofing & Dr. Fixit in Wai Taluka, Satara, Maharashtra.",
   openGraph: {
     title: "CD Enterprises — Authorised Building Materials Dealer, Wai Taluka",
     description:

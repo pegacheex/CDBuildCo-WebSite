@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 
+const BASE_URL = "https://cd-build-co-web-site.vercel.app";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
   title: "CD Enterprises — Authorised Building Materials Dealer, Wai Taluka",
   description:
     "CD Enterprises is a 25+ year multi-brand authorised dealer of ACC Cement, JSW Roofing & Dr. Fixit in Wai Taluka, Satara, Maharashtra.",
@@ -8,11 +11,11 @@ export const metadata: Metadata = {
     title: "CD Enterprises — Authorised Building Materials Dealer, Wai Taluka",
     description:
       "25+ year multi-brand authorised dealer of ACC Cement, JSW Roofing & Dr. Fixit in Wai Taluka, Satara, Maharashtra. Retail & wholesale supply.",
-    url: "https://cd-build-co-web-site.vercel.app",
+    url: BASE_URL,
     siteName: "CD Enterprises",
     images: [
       {
-        url: "https://cd-build-co-web-site.vercel.app/applogo.png",
+        url: `${BASE_URL}/applogo.png`,
         width: 1200,
         height: 630,
         alt: "CD Enterprises — Strong Foundations. Trusted Generations.",
@@ -26,7 +29,7 @@ export const metadata: Metadata = {
     title: "CD Enterprises — Authorised Building Materials Dealer, Wai Taluka",
     description:
       "25+ year multi-brand authorised dealer of ACC Cement, JSW Roofing & Dr. Fixit in Wai Taluka, Satara.",
-    images: ["https://cd-build-co-web-site.vercel.app/applogo.png"],
+    images: [`${BASE_URL}/applogo.png`],
   },
   icons: {
     icon: "/applogo.png",
@@ -34,6 +37,11 @@ export const metadata: Metadata = {
   },
 };
 
+/**
+ * Root layout — Next.js App Router requires this to export metadata.
+ * The actual HTML shell is in [locale]/layout.tsx.
+ * This layout just passes through children.
+ */
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return children;
 }

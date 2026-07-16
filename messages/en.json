@@ -240,27 +240,27 @@
       "description": "CD Enterprises supplies a comprehensive range of structural steel sections as an authorised JSW Steel dealer. All sections are IS-standard compliant and available in multiple sizes for industrial, commercial, and residential construction.",
       "metaTitle": "Structural Steel Sections Wai | CD Enterprises",
       "metaDescription": "MS Channels, H-Beams, Angles, Square Pipes, Round Pipes, and Flat Bars — available in Wai, Satara. JSW Steel authorised dealer.",
-      "msChannels": {
+      "ismc": {
         "name": "MS Channels (ISMC)",
         "description": "Mild steel channels for structural frames, industrial racks, purlins, and general fabrication. Available in standard IS sizes."
       },
-      "hBeams": {
+      "ishb": {
         "name": "H-Beams (ISHB)",
         "description": "Heavy beams for columns and structural applications in industrial and commercial construction. IS 808 compliant."
       },
-      "msAngles": {
+      "isa": {
         "name": "MS Angles (ISA)",
         "description": "Equal and unequal leg mild steel angles for bracings, trusses, and general structural steelwork."
       },
-      "msSquarePipes": {
+      "msSquare": {
         "name": "MS Square Pipes",
         "description": "Square hollow sections for furniture, gate fabrication, fencing, and light structural applications."
       },
-      "msRoundPipes": {
+      "msRound": {
         "name": "MS Round Pipes",
         "description": "Round hollow sections for plumbing, handrails, scaffolding, and structural applications."
       },
-      "msFlatBars": {
+      "msFlat": {
         "name": "MS Flat Bars",
         "description": "Flat bars for grill fabrication, gate frames, staircase components, and general welding work."
       }

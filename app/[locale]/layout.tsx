@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: "CD Enterprises",
     images: [
       {
-        url: "/applogo.png",
+        url: "https://cd-build-co-web-site.vercel.app/applogo.png",
         width: 1200,
         height: 630,
         alt: "CD Enterprises — Strong Foundations. Trusted Generations.",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: "CD Enterprises — Authorised Building Materials Dealer, Wai Taluka",
     description:
       "25+ year multi-brand authorised dealer of ACC Cement, JSW Roofing & Dr. Fixit in Wai Taluka, Satara, Maharashtra.",
-    images: ["/applogo.png"],
+    images: ["https://cd-build-co-web-site.vercel.app/applogo.png"],
   },
   icons: {
     icon: "/applogo.png",

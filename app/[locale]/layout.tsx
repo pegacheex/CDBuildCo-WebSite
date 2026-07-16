@@ -89,6 +89,16 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <head>
+        <meta property="og:title" content="CD Enterprises — Authorised Building Materials Dealer, Wai Taluka" />
+        <meta property="og:description" content="25+ year multi-brand authorised dealer of ACC Cement, JSW Roofing & Dr. Fixit in Wai Taluka, Satara, Maharashtra." />
+        <meta property="og:image" content="https://cd-build-co-web-site.vercel.app/applogo.png" />
+        <meta property="og:url" content="https://cd-build-co-web-site.vercel.app" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="CD Enterprises" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://cd-build-co-web-site.vercel.app/applogo.png" />
+        <meta name="twitter:title" content="CD Enterprises — Authorised Building Materials Dealer, Wai Taluka" />
+        <meta name="twitter:description" content="25+ year multi-brand authorised dealer of ACC Cement, JSW Roofing & Dr. Fixit in Wai Taluka, Satara." />
         <SchemaMarkup />
         <HreflangTags />
       </head>

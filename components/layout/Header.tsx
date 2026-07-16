@@ -98,7 +98,6 @@ export default function Header() {
               height: compressed ? '48px' : '60px',
               width: 'auto',
               transition: 'height 150ms ease-out',
-              maxWidth: '160px',
             }}
           />
         </Link>

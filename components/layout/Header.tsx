@@ -95,9 +95,10 @@ export default function Header() {
             src="/logo.png"
             alt="CD Enterprises"
             style={{
-              height: compressed ? '64px' : '80px',
+              height: compressed ? '48px' : '60px',
               width: 'auto',
               transition: 'height 150ms ease-out',
+              maxWidth: '160px',
             }}
           />
         </Link>
@@ -170,18 +171,18 @@ export default function Header() {
         {/* Mobile: Call CTA + hamburger */}
         <div
           className="cd-header-mobile-controls"
-          style={{ display: 'flex', alignItems: 'center', gap: '12px' }}
+          style={{ display: 'flex', alignItems: 'center', gap: '8px' }}
         >
           <Button
             variant="secondary"
             href={CALL_URL}
             style={{
-              fontSize: '13px',
-              padding: '6px 12px',
+              fontSize: '11px',
+              padding: '6px 10px',
               whiteSpace: 'nowrap',
             }}
           >
-            91758 71222
+            Call
           </Button>
 
           <button

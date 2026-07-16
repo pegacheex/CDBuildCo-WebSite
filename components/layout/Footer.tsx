@@ -16,6 +16,8 @@ const PRODUCT_LINKS = [
   { slug: 'cera-bathroom-fittings', label: 'CERA Bathroom Fittings' },
   { slug: 'samruddhi-water-tanks', label: 'Samruddhi Water Tanks' },
   { slug: 'ms-grills-manhole-covers', label: 'MS Grills & Manhole Covers' },
+  { slug: 'cement-blocks', label: 'Cement Blocks' },
+  { slug: 'tiles', label: 'Tiles' },
 ] as const;
 
 // ─── Types ───────────────────────────────────────────────────────────────────

@@ -1,0 +1,353 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "services": "Services",
+    "serviceArea": "Service Area",
+    "contact": "Contact",
+    "callNow": "91758 71222"
+  },
+  "hero": {
+    "eyebrow": "Wai Taluka · Satara District · Maharashtra",
+    "headline": "Strong Foundations. Trusted Generations.",
+    "subheadline": "Wai Taluka's Multi-Brand Dealer — ACC Cement, JSW Roofing & more — 25+ Years of Genuine Materials, Honest Pricing, and Reliable Delivery.",
+    "ctaWhatsApp": "Get a Quote on WhatsApp",
+    "ctaCall": "Call Now: 91758 71222"
+  },
+  "trustBar": {
+    "years": "25+ Years in Business",
+    "authorised": "Authorised Dealer: ACC · JSW · Dr. Fixit",
+    "genuine": "100% Genuine Products",
+    "supply": "Retail & Wholesale Supply"
+  },
+  "common": {
+    "floatingWhatsAppLabel": "Enquire on WhatsApp",
+    "skipToContent": "Skip to main content"
+  },
+  "footer": {
+    "tagline": "Strong Foundations. Trusted Generations.",
+    "products": "Products",
+    "quickLinks": "Quick Links",
+    "copyright": "© 2025 CD BuildCo (CD Enterprises). All rights reserved.",
+    "whatsAppLink": "Enquire on WhatsApp ↗",
+    "hours": "Mon – Sun, 9:00 AM – 7:00 PM",
+    "open7days": "Open 7 Days"
+  },
+  "home": {
+    "productsEyebrow": "What We Supply",
+    "productsHeading": "One Source for All Your Building Materials",
+    "authorisedDealer": "Authorised Dealer —",
+    "viewProducts": "View Products",
+    "brandsEyebrow": "Brands We Carry (6+)",
+    "servicesEyebrow": "How We Serve You",
+    "servicesHeading": "Four Ways We Make Your Build Easier",
+    "service": {
+      "retail": {
+        "name": "Retail Supply",
+        "description": "Individual homeowners and self-builders get the same genuine materials and honest pricing as bulk buyers. No minimum order, no markups."
+      },
+      "wholesale": {
+        "name": "Wholesale / Contractor Supply",
+        "description": "Contractors and builders count on us for consistent quality across large orders. Dedicated account support for site schedules and bulk requirements."
+      },
+      "delivery": {
+        "name": "Doorstep Delivery",
+        "description": "Same-week delivery available across Wai Taluka and Satara District. Contact us to confirm your area and delivery schedule."
+      },
+      "guidance": {
+        "name": "Expert Material Guidance",
+        "description": "Not sure which grade of cement or which steel section suits your project? Our team has 25+ years of on-ground experience — ask us."
+      }
+    },
+    "trustEyebrow": "Why Contractors Trust Us",
+    "trustHeading": "The Numbers Behind 25+ Years of Reliable Supply",
+    "statYears": "Years in Business",
+    "statBrands": "Authorised Brands",
+    "statGenuine": "Genuine Products",
+    "statGenerations": "Generations of Trust",
+    "photoTeam": "Team Photo — Coming Soon",
+    "photoGodown": "Godown / Warehouse Photo — Coming Soon",
+    "photoDelivery": "Delivery Truck Photo — Coming Soon",
+    "certHeading": "Authorised Dealer Certificates",
+    "certLabel": "Dealer Certificate — Coming Soon",
+    "ctaEyebrow": "Ready to Order?",
+    "ctaHeading": "Get Genuine Materials, Delivered on Schedule.",
+    "ctaBody": "Worried about fake cement or opaque pricing? Call or WhatsApp us — you'll get a straight answer and a fair quote, every time.",
+    "ctaWhatsApp": "Get a Quote on WhatsApp",
+    "ctaCall": "Call Now: 91758 71222"
+  },
+  "about": {
+    "eyebrow": "Our Story",
+    "heading": "25+ Years of Building Trust. One Foundation. Countless Dreams.",
+    "subheading": "Since 1997, CD Enterprises has been led by Dhiraj Oswal and Chetan Oswal with one simple belief: every customer deserves genuine materials, honest advice, and dependable service. For over 25 years, we've proudly helped homeowners, contractors, and builders across Wai Taluka build with confidence.",
+    "storyEyebrow": "Since 1997",
+    "storyHeading": "A Business Built on Relationships, Not Just Transactions",
+    "storyP1": "CD Enterprises was established in 1997 with a simple yet unwavering vision — to provide genuine building materials, transparent pricing, and trustworthy service to every customer. What began as a family-run business has grown into one of Wai Taluka's most trusted building material suppliers. That trust wasn't built through advertising — it was earned through consistent quality, honest recommendations, and treating every customer with the same care and respect.",
+    "storyP2": "As authorised dealers for ACC Cement, JSW Roofing Sheets, and CERA Sanitaryware, we ensure every product we supply meets the highest standards of quality and reliability. Customers choose us because they know they're receiving genuine materials backed by dependable guidance.",
+    "storyP3": "Today, while the business continues under the leadership of Dhiraj Oswal and Chetan Oswal, the next generation proudly joins the journey — bringing modern ideas and technology while preserving the values that have defined CD Enterprises since 1997. More than 25 years later, our promise remains exactly the same: build every relationship with honesty, serve every customer with integrity, and deliver only materials we would confidently use ourselves.",
+    "teamPhotoLabel": "CD Enterprises Team — Photo Coming Soon",
+    "certEyebrow": "Proof of Authorisation",
+    "certHeading": "Authorised Dealer Certificates",
+    "certLabel": "Dealer Certificate — Coming Soon",
+    "whyEyebrow": "Why Choose CD Enterprises",
+    "whyHeading": "Five Reasons Contractors Come Back",
+    "pillar": {
+      "multiband": {
+        "name": "Multi-Brand Authorised Dealer",
+        "description": "Genuine ACC and JSW products backed by formal dealership status. We also supply CERA, Samruddhi, and other trusted brands. Not grey-market. Not substitutes."
+      },
+      "years": {
+        "name": "25+ Years of Trust",
+        "description": "Since 1997, the same family, the same Taluka, the same commitment. Led by Dhiraj Oswal and Chetan Oswal — that's not marketing, it's a track record."
+      },
+      "oneStop": {
+        "name": "One-Stop Materials Destination",
+        "description": "Cement to steel to roofing to sanitaryware. One supplier, one relationship, one delivery. No running from yard to yard."
+      },
+      "pricing": {
+        "name": "Honest Pricing, No Surprises",
+        "description": "Every customer gets the same rate. No special pricing for some and inflated rates for others. We quote clearly and we stand by it."
+      },
+      "delivery": {
+        "name": "Reliable Delivery, On Schedule",
+        "description": "We understand that a delayed delivery isn't just an inconvenience — it stalls your entire site. We take that seriously."
+      }
+    },
+    "ctaEyebrow": "Ready to Work With Us?",
+    "ctaHeading": "WhatsApp Your Requirement. We'll Get Back to You."
+  },
+  "services": {
+    "eyebrow": "Our Services",
+    "heading": "How We Work With You",
+    "subheading": "CD BuildCo isn't just a materials yard. We are a supply partner — from the first bag of cement to the last fitting.",
+    "retail": {
+      "name": "Retail Supply",
+      "description": "Individual homeowners and self-builders receive the same quality materials and honest pricing as our bulk buyers. No minimum order. Walk in, ask for what you need, get a straight answer."
+    },
+    "wholesale": {
+      "name": "Wholesale / Contractor Supply",
+      "description": "For contractors managing site schedules, we provide dedicated support for large orders across our full product range. We understand that your timeline is your business — and we don't play games with it."
+    },
+    "delivery": {
+      "name": "Doorstep Delivery",
+      "description": "Same-week delivery available across Wai Taluka and Satara District. Contact us to confirm your area and agree on a delivery window that works for your site schedule."
+    },
+    "guidance": {
+      "name": "Expert Material Guidance",
+      "description": "Not sure which cement grade suits your application, or which steel section your engineer specified? Our team has 25+ years of on-ground experience in Wai Taluka construction. Ask us — we'll give you a straight answer, not a sales pitch."
+    },
+    "enquireLink": "Enquire about this service",
+    "ctaEyebrow": "Get Started",
+    "ctaHeading": "Tell Us What Your Project Needs."
+  },
+  "serviceArea": {
+    "eyebrow": "Coverage",
+    "heading": "We Serve the Entire Wai Taluka",
+    "subheading": "CD Enterprises delivers building materials throughout the Wai Taluka area. Open 7 days a week, 9 AM to 7 PM.",
+    "mapLabel": "Service Coverage Map",
+    "mapPlaceholder": "Map — Coming Soon",
+    "areasEyebrow": "Areas We Serve",
+    "areasHeading": "Our Delivery Area",
+    "area": {
+      "wai": "Wai",
+      "panchgani": "Panchgani",
+      "mahabaleshwar": "Mahabaleshwar"
+    },
+    "areasNote": "We cover the entire Wai Taluka. Contact us to confirm delivery to your specific location.",
+    "ctaEyebrow": "Check Your Area",
+    "ctaHeading": "Confirm Delivery to Your Site."
+  },
+  "contact": {
+    "eyebrow": "Get in Touch",
+    "heading": "Get a Quote or Ask a Question",
+    "subheading": "Open Monday to Sunday, 9:00 AM – 7:00 PM. WhatsApp is the fastest way to reach us — or call directly for bulk order discussions.",
+    "primaryCTALabel": "Fastest Response",
+    "whatsAppHeading": "Send Us a WhatsApp",
+    "callLabel": "Prefer to Talk",
+    "callHeading": "Call Us Directly",
+    "addressLabel": "Find Us",
+    "hoursLabel": "Business Hours",
+    "hours": "Monday – Sunday, 9:00 AM – 7:00 PM",
+    "open7days": "Open 7 Days — No Weekly Off",
+    "formEyebrow": "Enquiry Form",
+    "formHeading": "Send Us Your Requirement",
+    "formSubheading": "Fill in the form below. We'll respond with availability, pricing, and delivery options — usually within a few hours.",
+    "formName": "Your Name",
+    "formNamePlaceholder": "e.g. Ramesh Patil",
+    "formPhone": "Mobile Number",
+    "formPhonePlaceholder": "e.g. 98765 43210",
+    "formNeed": "What Do You Need",
+    "formNeedPlaceholder": "Select a category",
+    "formQuantity": "Quantity",
+    "formQuantityPlaceholder": "e.g. 50 bags, 1 tonne",
+    "formSubmit": "Send Enquiry",
+    "formSubmitting": "Sending...",
+    "optional": "optional",
+    "orWhatsApp": "Or send directly on WhatsApp",
+    "successHeading": "Enquiry Sent",
+    "successBody": "Your enquiry has been received. Click the button below to open WhatsApp and confirm your requirement directly.",
+    "openWhatsApp": "Open WhatsApp",
+    "errorGeneric": "Something went wrong. Please try again or contact us directly on WhatsApp.",
+    "directionsLabel": "Location",
+    "directionsHeading": "Yashwant Nagar, Opposite Wai Bazar Samiti, Mahabaleshwar Road, Wai",
+    "mapAriaLabel": "Map showing CD BuildCo location in Wai, Satara District",
+    "mapPlaceholder": "Map — Loading"
+  },
+  "products": {
+    "indexHeading": "All Building Materials — One Authorised Source",
+    "indexSubheading": "Browse our complete range of ACC Cement, JSW Roofing Sheets, CERA Bathroom Fittings, TMT Bars, Structural Steel, and more.",
+    "ctaHeading": "Need a Quote? WhatsApp or Call Us.",
+    "ctaEyebrow": "Get in Touch",
+    "ctaBody": "Our team will give you a straight answer on availability, pricing, and delivery timing. No runaround.",
+    "contactForDetails": "Contact us on WhatsApp or call us for full product specifications, availability, and pricing.",
+    "accCement": {
+      "name": "ACC Cement",
+      "description": "As an authorised ACC Cement dealer serving Wai Taluka for over 20 years, CD BuildCo stocks the complete ACC range — from premium waterproof grades to everyday construction grades. All bags are genuine, BIS-certified, and sourced directly from ACC.",
+      "metaTitle": "ACC Cement Dealer Wai | CD BuildCo",
+      "metaDescription": "Authorised ACC Cement dealer in Wai, Satara District. Full range of ACC cement grades — retail and wholesale supply with doorstep delivery across Wai Taluka.",
+      "concretePlus": {
+        "name": "ACC Concrete Plus Xtra Strong",
+        "description": "High-performance concrete-grade cement engineered for RCC columns, beams, and slabs. Superior compressive strength for multi-storey residential and commercial construction. Ideal for all structural RCC work."
+      },
+      "surakshapower": {
+        "name": "ACC Suraksha Power",
+        "description": "Trusted everyday construction cement for plastering, masonry, and general RCC work. Consistent quality, reliable strength. The most popular choice for house construction across Wai Taluka."
+      }
+    },
+    "waterproofing": {
+      "name": "Waterproofing",
+      "description": "CD Enterprises is an authorised Dr. Fixit (Pidilite) dealer in Wai Taluka. Dr. Fixit is India's most trusted waterproofing brand — we stock the complete range for terraces, basements, bathrooms, and external walls.",
+      "metaTitle": "Waterproofing Solutions Wai | CD BuildCo",
+      "metaDescription": "Waterproofing products from ACC and Dr. Fixit (Pidilite) available in Wai, Satara. Retail and bulk supply with expert guidance.",
+      "drFixit": {
+        "name": "Dr. Fixit (Pidilite) Waterproofing",
+        "description": "Complete range of Dr. Fixit waterproofing solutions including Pidifin 2K, LW+, and Roff products. Suitable for terraces, underground tanks, bathrooms, and external walls. Genuine Pidilite products only."
+      }
+    },
+    "tmtBars": {
+      "name": "TMT Bars",
+      "description": "CD Enterprises supplies quality TMT bars for all RCC construction — BIS-certified, earthquake-resistant, and weldable. Available in standard grades for residential and commercial construction across Wai Taluka.",
+      "metaTitle": "TMT Bars Wai | CD Enterprises",
+      "metaDescription": "Quality TMT bars in Wai, Satara District. BIS-certified earthquake-resistant steel bars for construction. Retail and wholesale supply.",
+      "jswNeosteel": {
+        "name": "TMT Bars (Fe 500D / Fe 550D)",
+        "description": "High-strength earthquake-resistant TMT bars with superior bendability and weldability. BIS-certified Fe 500D and Fe 550D grades. Available in all standard diameters from 8mm to 32mm. Multiple trusted brands in stock."
+      }
+    },
+    "structuralSteel": {
+      "name": "Structural Steel",
+      "description": "CD Enterprises supplies a comprehensive range of structural steel sections as an authorised JSW Steel dealer. All sections are IS-standard compliant and available in multiple sizes for industrial, commercial, and residential construction.",
+      "metaTitle": "Structural Steel Sections Wai | CD Enterprises",
+      "metaDescription": "MS Channels, H-Beams, Angles, Square Pipes, Round Pipes, and Flat Bars — available in Wai, Satara. JSW Steel authorised dealer.",
+      "msChannels": {
+        "name": "MS Channels (ISMC)",
+        "description": "Mild steel channels for structural frames, industrial racks, purlins, and general fabrication. Available in standard IS sizes."
+      },
+      "hBeams": {
+        "name": "H-Beams (ISHB)",
+        "description": "Heavy beams for columns and structural applications in industrial and commercial construction. IS 808 compliant."
+      },
+      "msAngles": {
+        "name": "MS Angles (ISA)",
+        "description": "Equal and unequal leg mild steel angles for bracings, trusses, and general structural steelwork."
+      },
+      "msSquarePipes": {
+        "name": "MS Square Pipes",
+        "description": "Square hollow sections for furniture, gate fabrication, fencing, and light structural applications."
+      },
+      "msRoundPipes": {
+        "name": "MS Round Pipes",
+        "description": "Round hollow sections for plumbing, handrails, scaffolding, and structural applications."
+      },
+      "msFlatBars": {
+        "name": "MS Flat Bars",
+        "description": "Flat bars for grill fabrication, gate frames, staircase components, and general welding work."
+      }
+    },
+    "roofingSheets": {
+      "name": "Roofing & Sheets",
+      "description": "CD BuildCo is an authorised JSW dealer. JSW roofing sheets are IS-standard with superior corrosion protection for Maharashtra's monsoon climate.",
+      "metaTitle": "JSW Roofing Sheets Dealer Wai | CD BuildCo",
+      "metaDescription": "Authorised JSW roofing sheets dealer in Wai, Satara. GI plain and colour-coated sheets for industrial, commercial, and residential roofing.",
+      "giPlain": {
+        "name": "GI Sheets (Plain)",
+        "description": "Hot-dip zinc coated galvanised sheets for agricultural sheds, warehouses, and industrial buildings."
+      },
+      "colorCoated": {
+        "name": "Colour Coated Roofing Sheets",
+        "description": "Pre-painted finish with enhanced aesthetics and weather resistance. Multiple colours available."
+      }
+    },
+    "ceraBathroom": {
+      "name": "CERA Bathroom Fittings",
+      "description": "CD BuildCo stocks CERA bathroom fittings — combining elegant design with proven durability for modern homes. Wide range of sanitaryware and faucets available.",
+      "metaTitle": "CERA Bathroom Fittings Dealer Wai | CD BuildCo",
+      "metaDescription": "Authorised CERA sanitaryware and faucets dealer in Wai, Satara. Wide range for residential and commercial projects.",
+      "sanitaryware": {
+        "name": "CERA Sanitaryware",
+        "description": "WCs, wash basins, pedestals, and cisterns. Vitreous china with durable glaze for lasting hygiene."
+      },
+      "faucets": {
+        "name": "CERA Faucets",
+        "description": "Brass body, chrome-plated finish. Quarter-turn ceramic disc cartridges for drip-free performance."
+      }
+    },
+    "msGrills": {
+      "name": "MS Grills & Manhole Covers",
+      "description": "Mild steel fabricated grills for windows, doors, and staircases, plus heavy-duty manhole covers for roads and civil infrastructure.",
+      "metaTitle": "MS Grills & Manhole Covers Wai | CD BuildCo",
+      "metaDescription": "MS window grills, door grills, and manhole covers in Wai, Satara. Standard and custom sizes. Enquire now."
+    },
+    "cementBlocks": {
+      "name": "Cement Blocks",
+      "description": "CD Enterprises supplies solid and hollow cement blocks in standard sizes for walls, partitions, and boundary construction. Available as per stock.",
+      "metaTitle": "Cement Blocks Wai | CD Enterprises",
+      "metaDescription": "4-inch and 6-inch cement blocks in Wai, Satara. Retail and wholesale supply for walls and partitions.",
+      "fourInch": {
+        "name": "4 Inch Cement Blocks",
+        "description": "Standard 4-inch solid cement blocks for partition walls, boundary walls, and light construction. Strong, uniform, and easy to lay."
+      },
+      "sixInch": {
+        "name": "6 Inch Cement Blocks",
+        "description": "Heavy-duty 6-inch cement blocks for main walls and load-bearing partitions. Superior strength and thermal insulation compared to traditional brick."
+      }
+    },
+    "tiles": {
+      "name": "Tiles",
+      "description": "CD Enterprises stocks a wide range of tiles for kitchens, bathrooms, halls, and outdoor areas. Subject to availability — contact us to check current stock and sizes.",
+      "metaTitle": "Tiles Dealer Wai | CD Enterprises",
+      "metaDescription": "Kitchen, bathroom, hall, and outdoor tiles available in Wai, Satara. Multiple sizes and finishes. Subject to availability.",
+      "kitchen": {
+        "name": "Kitchen Tiles",
+        "description": "Ceramic and vitrified kitchen wall and floor tiles. Stain-resistant, easy to clean, and available in various sizes and finishes. Subject to availability."
+      },
+      "bathroom": {
+        "name": "Bathroom Tiles",
+        "description": "Anti-skid bathroom floor tiles and wall tiles. Water-resistant glazed finish available in multiple sizes. Subject to availability."
+      },
+      "hall": {
+        "name": "Hall & Living Area Tiles",
+        "description": "Large-format vitrified and ceramic tiles for halls, living rooms, and common areas. Polished and matt finishes available. Subject to availability."
+      },
+      "rough": {
+        "name": "Rough / Outdoor Tiles",
+        "description": "Anti-skid rough-finish tiles for outdoor areas, pathways, parking, and utility spaces. Durable, weather-resistant surface for high-traffic exterior use. Subject to availability."
+      }
+    },
+    "samruddhi": {
+      "name": "Samruddhi Water Tanks",
+      "description": "CD Enterprises is an authorised dealer for Samruddhi Water Tanks in Wai Taluka. Samruddhi tanks feature 4-layer foam construction with UV stabilization for superior heat reflection and durability. Food-grade virgin material, leakproof, rustproof, and maintenance-free. Available in vertical and loft tank configurations.",
+      "metaTitle": "Samruddhi Water Tanks Dealer Wai | CD Enterprises",
+      "metaDescription": "Authorised Samruddhi water tank dealer in Wai, Satara. Overhead and underground tanks in all capacities. Genuine Samruddhi products with warranty.",
+      "loftTanks": {
+        "name": "Loft Water Tanks (Horizontal)",
+        "description": "4-layer foam horizontal tanks for loft installation. UV stabilized with insulated foam layer for temperature control. Available in 300L, 500L, 750L, and 1000L capacities. Includes manhole access and platform. Dimensions: 300L (1145×915×305mm) to 1000L (1980×995×630mm)."
+      },
+      "undergroundTanks": {
+        "name": "Vertical Water Tanks (Overhead/Underground)",
+        "description": "4-layer UV stabilized vertical tanks with superior strength and hygiene. Safe storage with leakproof construction. Available from 200L to 3000L capacity. Features: UV protection, uniform thickness, easy installation, totally hygienic. Sizes from 200L (605mm dia) to 3000L (1475mm dia)."
+      }
+    }
+  }
+}

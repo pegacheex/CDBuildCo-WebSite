@@ -1,0 +1,248 @@
+@import "tailwindcss";
+
+/* ─── CD Enterprises Brand Tokens ─────────────────────────────────────────── */
+:root {
+  --cd-black: #161616;
+  --cd-orange: #F36F21;
+  --cd-white: #FFFFFF;
+  --cd-stone: #EFEDE6;
+  --cd-line: #E5E3DD;
+  --cd-gray-text: #7A7A75;
+  --cd-gray-dark-bg-text: #B8B8B4;
+}
+
+/* ─── Tailwind v4 Theme Mapping ────────────────────────────────────────────── */
+@theme inline {
+  /* Brand colors */
+  --color-cd-black: var(--cd-black);
+  --color-cd-orange: var(--cd-orange);
+  --color-cd-white: var(--cd-white);
+  --color-cd-stone: var(--cd-stone);
+  --color-cd-line: var(--cd-line);
+  --color-cd-gray-text: var(--cd-gray-text);
+  --color-cd-gray-dark-bg-text: var(--cd-gray-dark-bg-text);
+
+  /* Spacing — 8px base */
+  --spacing: 0.5rem; /* 8px unit */
+
+  /* Border radius — maximum 4px */
+  --radius-none: 0px;
+  --radius-sm: 2px;
+  --radius-DEFAULT: 4px;
+  --radius-md: 4px;
+  --radius-lg: 4px;
+  --radius-xl: 4px;
+  --radius-2xl: 4px;
+  --radius-3xl: 4px;
+  --radius-full: 4px;
+
+  /* Disable all box shadows */
+  --shadow-sm: none;
+  --shadow: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+  --shadow-xl: none;
+  --shadow-2xl: none;
+  --shadow-inner: none;
+
+  /* Disable ring utilities */
+  --ring-width: 0px;
+  --ring-shadow: none;
+}
+
+/* ─── Global Resets ────────────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* Enforce border-radius cap */
+* {
+  border-radius: min(var(--applied-radius, 4px), 4px);
+}
+
+html {
+  /* 8px spacing base */
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--cd-white);
+  color: var(--cd-black);
+  font-family: var(--font-inter), var(--font-noto-devanagari), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Accessibility: Focus Styles ───────────────────────────────────────────
+   All interactive elements must have a visible :focus-visible style.
+   We use --cd-orange outline (2px, offset 2px) as the design-system-compliant
+   focus indicator — sufficient contrast on both light and dark backgrounds.
+─────────────────────────────────────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--cd-orange);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Inputs and selects get a border-color shift instead of outline on focus */
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: none;
+  border-color: var(--cd-orange) !important;
+}
+
+/* Skip to content link — visually hidden until focused */
+.cd-skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 9999;
+  padding: 8px 16px;
+  background-color: var(--cd-orange);
+  color: var(--cd-white);
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 0 0 2px 0;
+  transition: top 150ms ease-out;
+}
+.cd-skip-link:focus {
+  top: 0;
+  outline: 2px solid var(--cd-white);
+  outline-offset: -4px;
+}
+
+/* Screen-reader only utility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* ─── Button Hover States ──────────────────────────────────────────────────── */
+/* Secondary: border and text shift to --cd-orange on hover */
+.cd-btn--secondary:hover {
+  border-color: var(--cd-orange) !important;
+  color: var(--cd-orange) !important;
+}
+
+/* Ghost: text shifts to --cd-black on hover */
+.cd-btn--ghost:hover {
+  color: var(--cd-black) !important;
+}
+
+/* Primary: slight opacity shift on hover — no scale, no shadow */
+.cd-btn--primary:hover {
+  opacity: 0.92;
+}
+
+/* ─── Header Responsive Layout ─────────────────────────────────────────────── */
+/* Desktop: show nav + right controls, hide mobile controls */
+@media (min-width: 768px) {
+  .cd-header-desktop-nav {
+    display: flex !important;
+  }
+  .cd-header-desktop-right {
+    display: flex !important;
+  }
+  .cd-header-mobile-controls {
+    display: none !important;
+  }
+}
+
+/* ─── Footer Layout ─────────────────────────────────────────────────────────── */
+.cd-footer-inner {
+  padding: 40px 24px 32px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+.cd-footer-copyright {
+  padding: 24px 24px 24px;
+}
+
+@media (min-width: 768px) {
+  .cd-footer-inner {
+    padding: 64px 24px 32px;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 48px;
+  }
+  .cd-footer-copyright {
+    padding: 24px 24px 32px;
+  }
+}
+
+/* ─── FloatingWhatsApp Pulse Animation ─────────────────────────────────────── */
+@keyframes cd-wa-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+}
+.cd-wa-pulse {
+  animation: cd-wa-pulse 1s ease-out;
+}
+
+/* ─── Circular FAB exception ─────────────────────────────────────────────────
+   The global border-radius cap (max 4px) must be overridden for the floating
+   action button — circular shape is required for thumb recognition (FAB pattern).
+   This is the ONLY border-radius exception in the design system.
+────────────────────────────────────────────────────────────────────────────── */
+.cd-fab-circle {
+  border-radius: 50% !important;
+}
+
+/* ─── Product Card Hover ─────────────────────────────────────────────────── */
+/* Scale 1.00→1.02, background shift — no shadow */
+.cd-product-card:hover {
+  background-color: var(--cd-line) !important;
+  transform: scale(1.02);
+}
+
+/* ─── About page story grid responsiveness ──────────────────────────────── */
+.cd-about-story-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+}
+@media (min-width: 992px) {
+  .cd-about-story-grid {
+    grid-template-columns: 1.2fr 1fr;
+    align-items: center;
+  }
+}
+
+/* ─── TrustBar mobile responsive styling ────────────────────────────────── */
+.cd-trust-bar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.cd-trust-bar-divider {
+  display: none !important;
+}
+@media (min-width: 768px) {
+  .cd-trust-bar-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .cd-trust-bar-divider {
+    display: inline-block !important;
+  }
+}

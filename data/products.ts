@@ -209,8 +209,7 @@ export const products: ProductCategory[] = [
     id: "cement-blocks",
     nameKey: "products.cementBlocks.name",
     descriptionKey: "products.cementBlocks.description",
-    iconName: "cement-bag",
-    subProducts: [
+    iconName: "cement-bag",    subProducts: [
       {
         id: "4-inch-block",
         nameKey: "products.cementBlocks.fourInch.name",

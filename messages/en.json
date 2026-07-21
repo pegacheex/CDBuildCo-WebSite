@@ -300,17 +300,17 @@
       "metaDescription": "MS window grills, door grills, and manhole covers in Wai, Satara. Standard and custom sizes. Enquire now."
     },
     "cementBlocks": {
-      "name": "Cement Blocks",
-      "description": "CD Enterprises supplies solid and hollow cement blocks in standard sizes for walls, partitions, and boundary construction. Available as per stock.",
-      "metaTitle": "Cement Blocks Wai | CD Enterprises",
-      "metaDescription": "4-inch and 6-inch cement blocks in Wai, Satara. Retail and wholesale supply for walls and partitions.",
+      "name": "AAC Blocks",
+      "description": "CD Enterprises supplies AAC (Autoclaved Aerated Concrete) blocks in standard sizes for walls, partitions, and boundary construction. Lightweight, strong, and thermally efficient. Available as per stock.",
+      "metaTitle": "AAC Blocks Wai | CD Enterprises",
+      "metaDescription": "AAC Blocks (4-inch and 6-inch) in Wai, Satara. Retail and wholesale supply for walls and partitions.",
       "fourInch": {
-        "name": "4 Inch Cement Blocks",
-        "description": "Standard 4-inch solid cement blocks for partition walls, boundary walls, and light construction. Strong, uniform, and easy to lay."
+        "name": "4 Inch AAC Blocks",
+        "description": "Standard 4-inch AAC blocks for partition walls and boundary walls. Lightweight, easy to cut, and thermally insulating."
       },
       "sixInch": {
-        "name": "6 Inch Cement Blocks",
-        "description": "Heavy-duty 6-inch cement blocks for main walls and load-bearing partitions. Superior strength and thermal insulation compared to traditional brick."
+        "name": "6 Inch AAC Blocks",
+        "description": "Heavy-duty 6-inch AAC blocks for main walls. Superior strength, thermal insulation, and sound resistance compared to traditional brick."
       }
     },
     "tiles": {

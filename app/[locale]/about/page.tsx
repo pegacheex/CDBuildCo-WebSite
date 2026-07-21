@@ -10,8 +10,12 @@ export const metadata: Metadata = {
     "CD Enterprises has been serving Wai Taluka since 1997. Led by Dhiraj Oswal and Chetan Oswal — authorised dealer for ACC Cement and JSW.",
 };
 
-// ACC, JSW, Dr. Fixit are authorised dealerships
-const CERT_BRANDS = ["ACC", "JSW", "Dr. Fixit"] as const;
+// ACC, JSW, Samruddhi are authorised dealerships
+const CERT_BRANDS = [
+  { name: "ACC", image: "/products/26 Acc certificate.jpeg" },
+  { name: "JSW", image: "/products/25 Jsw Certificate.jpeg" },
+  { name: "Samruddhi", image: "/products/27 Samruddhi Certificate.jpeg" },
+] as const;
 
 const PILLARS = [
   "multiband",
@@ -165,12 +169,15 @@ export default async function AboutPage() {
                 gap: "16px",
               }}
             >
-              {CERT_BRANDS.map((brand) => (
-                <PlaceholderBlock
-                  key={brand}
-                  label={`${brand} ${t("certLabel")}`}
-                  aspectRatio="3/2"
-                />
+              {CERT_BRANDS.map((cert) => (
+                <div key={cert.name} style={{ border: "1px solid var(--cd-line)", overflow: "hidden", aspectRatio: "3/2" }}>
+                  <img
+                    src={cert.image}
+                    alt={`${cert.name} Authorised Dealer Certificate`}
+                    loading="lazy"
+                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                  />
+                </div>
               ))}
             </div>
           </div>

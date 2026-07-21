@@ -10,8 +10,12 @@ import PlaceholderBlock from "@/components/ui/PlaceholderBlock";
 export default async function TrustSection() {
   const t = await getTranslations("home");
 
-  // ACC, JSW, Dr. Fixit are authorised dealerships
-  const CERT_BRANDS = ["ACC", "JSW", "Dr. Fixit"] as const;
+  // ACC, JSW, Samruddhi are authorised dealerships
+  const CERT_BRANDS = [
+    { name: "ACC", image: "/products/26 Acc certificate.jpeg" },
+    { name: "JSW", image: "/products/25 Jsw Certificate.jpeg" },
+    { name: "Samruddhi", image: "/products/27 Samruddhi Certificate.jpeg" },
+  ] as const;
 
   return (
     <section
@@ -115,14 +119,12 @@ export default async function TrustSection() {
             label={t("photoTeam")}
             aspectRatio="4/3"
           />
-          <PlaceholderBlock
-            label={t("photoGodown")}
-            aspectRatio="4/3"
-          />
-          <PlaceholderBlock
-            label={t("photoDelivery")}
-            aspectRatio="4/3"
-          />
+          <div style={{ aspectRatio: "4/3", overflow: "hidden", border: "1px solid var(--cd-line)" }}>
+            <img src="/products/28 Godown Photo.jpeg" alt="CD Enterprises Godown" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          </div>
+          <div style={{ aspectRatio: "4/3", overflow: "hidden", border: "1px solid var(--cd-line)" }}>
+            <img src="/products/29 Truck Photo.jpeg" alt="CD Enterprises Delivery Truck" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          </div>
         </div>
 
         {/* ── Certification placeholders ────────────────────────────── */}
@@ -146,12 +148,15 @@ export default async function TrustSection() {
             gap: "16px",
           }}
         >
-          {CERT_BRANDS.map((brand) => (
-            <PlaceholderBlock
-              key={brand}
-              label={`${brand} ${t("certLabel")}`}
-              aspectRatio="3/2"
-            />
+          {CERT_BRANDS.map((cert) => (
+            <div key={cert.name} style={{ border: "1px solid var(--cd-line)", overflow: "hidden", aspectRatio: "3/2" }}>
+              <img
+                src={cert.image}
+                alt={`${cert.name} Authorised Dealer Certificate`}
+                loading="lazy"
+                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+              />
+            </div>
           ))}
         </div>
       </div>
